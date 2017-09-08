@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import Parent from './Components/Parent'
+
 class App extends React.Component {
   render () {
-    return <h1>Hello ReactJS!</h1>
+    return <Parent />
   }
 }
 
